@@ -14,8 +14,8 @@ var binaryPath;
 var binary;
 
 if (Deno.build.os === "windows") {
-  binary = "bombardier-win-amd64.exe";
-  binaryPath = join(__dirname, "bin", "bombardier-win-amd64.exe").slice(1);
+  binary = "bombardier-windows-amd64.exe";
+  binaryPath = join(__dirname, "bin", "bombardier-windows-amd64.exe").slice(1);
 } else if (Deno.build.os === "darwin") {
   binary = "bombardier-darwin-amd64";
   binaryPath = join(__dirname, "bin", "bombardier-darwin-amd64");
