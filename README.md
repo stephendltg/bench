@@ -59,7 +59,7 @@ bombardierd [flags] <url>
 Example of running bombardier against this server:
 
 ```
-> bombardier -c 125 -n 10000000 http://localhost:8080
+> bombardierd -c 125 -n 10000000 http://localhost:8080
 Bombarding http://localhost:8080 with 10000000 requests using 125 connections
  10000000 / 10000000 [============================================] 100.00% 37s Done!
 Statistics        Avg      Stdev        Max
@@ -74,7 +74,7 @@ Statistics        Avg      Stdev        Max
 Or, against a realworld server(with latency distribution):
 
 ```
-> bombardier -c 200 -d 10s -l http://ya.ru
+> bombardierd -c 200 -d 10s -l http://ya.ru
 Bombarding http://ya.ru for 10s using 200 connections
 [=========================================================================] 10s Done!
 Statistics        Avg      Stdev        Max
