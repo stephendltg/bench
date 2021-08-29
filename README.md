@@ -8,7 +8,7 @@ deno install -f -A --unstable bombardierd.ts
 ```
 
 ```
-benchd [flags] <url>
+bombardierd [flags] <url>
 
     --help                  Show context-sensitive help (also try --help-long
                             and --help-man).
