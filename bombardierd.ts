@@ -74,7 +74,7 @@ const { code } = await bombardier.status();
 const rawError = await bombardier.stderrOutput();
 
 if (code === 0) {
-  log.info("Bombardier run ...", Deno.args);
+  log.info("Bombardier run ... " + Deno.args);
 } else {
   const errorString = new TextDecoder().decode(rawError);
   log.warning(errorString);

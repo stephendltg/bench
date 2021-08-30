@@ -41,7 +41,7 @@ start:
 
 dev:
 	@echo "Deno dev ..."
-	deno run --allow-all --unstable --watch ${BINARY_NAME}.ts
+	deno run --allow-all --unstable --watch ${BINARY_NAME}.ts https://stephendltg.netlify.app
   
 bundle:
 	@echo "Deno bundle ..."
